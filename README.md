@@ -12,11 +12,11 @@ Telegraph  File Photo and many more Uploader.....
 
 ### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lgcyalex/Telegraph-Uploader)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LgcyAlex/Telegraph-Uploader)
 
 
 # Demo 
-<a href="https://t.me/TeleUploaderRexBot"><img src="https://img.shields.io/badge/Telegraph Uploader Rex Bot-2cb6e0?style=for-the-badge&logo=telegram&logoColor=white"></a>
+<a href="https://t.me/LGcY_Telegraph_ROBOT"><img src="https://img.shields.io/badge/Telegraph Uploader Rex Bot-2cb6e0?style=for-the-badge&logo=telegram&logoColor=white"></a>
 
 
 
