@@ -10,7 +10,7 @@ from telegraph import upload_file
 async def start(client, message):
     await client.send_message(
         chat_id=message.chat.id,
-        text=f"Hello {message.from_user.first_name},\n<b>I ᴀᴍ 𝙇𝙂𝙘𝙔・𝘽𝙊𝙏 Created By @LGcYALEX</b> \n<b>Do /help For More</b>",
+        text=f"Hello {message.from_user.first_name},\n<b>I ᴀᴍ 𝙇𝙂𝙘𝙔・𝘽𝙊𝙏 Created By @TAG_FBAN</b> \n<b>Do /help For More</b>",
         reply_to_message_id=message.message_id
     )
 
@@ -18,7 +18,7 @@ async def start(client, message):
 async def help(client, message):
     await client.send_message(
         chat_id=message.chat.id,
-        text=f"<b>𝙎𝙚𝙣𝙙 𝙈𝙚 𝘼𝙣𝙮 𝙑𝙞𝙙𝙚𝙤 𝙊𝙧 𝙋𝙝𝙤𝙩𝙤 𝙄 𝙬𝙞𝙡𝙡 𝙐𝙥𝙡𝙤𝙖𝙙 𝙄𝙩 𝙄𝙣𝙩𝙤 Telegra.ph.</b> \n<b>Created By @LGcYALEX</b>",
+        text=f"<b>𝙎𝙚𝙣𝙙 𝙈𝙚 𝘼𝙣𝙮 𝙑𝙞𝙙𝙚𝙤 𝙊𝙧 𝙋𝙝𝙤𝙩𝙤 𝙄 𝙬𝙞𝙡𝙡 𝙐𝙥𝙡𝙤𝙖𝙙 𝙄𝙩 𝙄𝙣𝙩𝙤 Telegra.ph.</b> \n<b>Created By @TAG_FBAN</b>",
         reply_to_message_id=message.message_id
     )
     
@@ -68,7 +68,7 @@ async def getvideo(client, message):
     try:
         response = upload_file(viddir)
     except Exception as error:
-        await dwn.edit_text(f"Oops Something Went Wrong\n{error} Contact @LGcyALEX")
+        await dwn.edit_text(f"Oops Something Went Wrong\n{error} Contact @TaG_FBAN")
         return
     await dwn.edit_text(f"https://telegra.ph{response[0]}")
     try:
